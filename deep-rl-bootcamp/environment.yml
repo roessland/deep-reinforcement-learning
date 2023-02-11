@@ -1,0 +1,15 @@
+name: deeprlbootcamp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.9
+  - numpy=1.24.2
+  - notebook=6.5.2
+  - pip=23.0
+  - gym=0.26
+  - chainer=7.8.1
+  - matplotlib=3.6.3
+  - pip:
+      - gymnasium==0.27.1
+      - pygame==2.1.2
